@@ -1,0 +1,6 @@
+import shutil
+
+shutil.copy(
+    'tuned_retail_sales_model.pkl',
+    r'C:\Users\YOUR_USERNAME\Desktop\Retail_Sales_Forecasting\tuned_retail_sales_model.pkl'
+)
