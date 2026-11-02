@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A machine learning project that predicts retail sales using historical sales data. The project includes data preprocessing, feature engineering, model training, and an interactive Streamlit dashboard for exploring sales predictions.
+A machine learning project that predicts retail sales using historical sales data.
 
 ## Technologies Used
 
@@ -27,30 +27,25 @@ A machine learning project that predicts retail sales using historical sales dat
 * Rolling averages
 * Sales forecasting
 * Interactive dashboard
-* Prediction filtering and charts
+* Prediction filtering
+* Interactive charts
 * CSV download
 
 ## Project Output
 
-`submission.csv` — contains the predicted sales values.
+`submission.csv` contains the predicted sales values.
 
 ## Installation
 
-Install the required libraries:
-
 ```bash
-python -m pip install pandas numpy matplotlib scikit-learn xgboost streamlit plotly
+python -m pip install -r requirements.txt
 ```
 
-## Run the Dashboard
-
-Run the following command from the project folder:
+## Run Dashboard
 
 ```bash
 python -m streamlit run app.py
 ```
-
-The dashboard will open in your browser.
 
 ## Author
 
